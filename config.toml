@@ -1,4 +1,4 @@
 baseURL = "https://thegrumpycat.netlify.app/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "TheGrumpyCAT's Blog"
 theme = "mero"
