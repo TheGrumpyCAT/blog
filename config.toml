@@ -1,4 +1,4 @@
-baseURL = "https://lucid-panini-d431e1.netlify.app/"
+baseURL = "https://thegrumpycat.netlify.app/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "mero"
