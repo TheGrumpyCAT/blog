@@ -1,7 +1,7 @@
 ---
 title: "Pentester Lab: From SQL injection to Shell -walkthrough"
 date: 2020-06-22T20:48:38+05:30
-draft: true
+draft: false
 ---
 ### About release 
 - Name: Pentester Lab: From SQL injection to Shell
