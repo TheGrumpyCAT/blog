@@ -50,7 +50,7 @@ There are three main type of XSS.
 In Reflected XSS, the malicious script comes from the current HTTP request.The attacker's payload is a part of request that is sent to the web server.The Web server includes the data in the immidiate response in an unsafe way.  
 Example :  
 Let's consider the user makes request to some webpage (say, `https://myinsecurewebsite.com?message=hello)` and the server responds with " &lt;p&gt; the message is  hello&lt;/P&gt;"  
-If the application doesn't process the data then we can send  malicious content in message parameter.  
+We can send  malicious content in message parameter.  
 `https://myinsecurewebsite.com?message=<script> malicious content ... </script>`
 
 ### Stored XSS  
@@ -61,7 +61,7 @@ The Example used in blog was an example of stored xss since the comment usually 
 ### DOM-based XSS  
 In DOM-based XSS, the malicious script is present in Client side itself.This is similar to reflected xss but the different is that the malicious content is injected in client side itself and no request is made in server.  
 Example :  
-`https://myinsecurewebsite.com?language=English`  
+`https://myinsecurewebsite.com#language=English`  
 If the developer places the content of language parameter  inside the DOM without processing, then it might cause some truoble if user gives url like,  
 `https://myinsecurewebsite.com?language=<script>alert(document.cookie)</script>`
 
